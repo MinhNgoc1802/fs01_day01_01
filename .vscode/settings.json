@@ -1,3 +1,11 @@
 {
-  "dart.flutterSdkPath": "/Users/minhngoc/Documents/lib/flutter_2.5.2/"
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  // Remove .fvm files from search
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // Remove from file watching
+  "files.watcherExclude": {
+    "**/.fvm": true
+  }
 }
